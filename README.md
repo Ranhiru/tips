@@ -159,6 +159,11 @@ git diff
 ```sh
 git diff --cached
 ```
+or
+
+```sh
+git diff --staged
+```
 
 ## Show both staged and unstaged changes
 ```sh
@@ -685,11 +690,6 @@ git config --global --unset <entry-name>
 ## Checkout a new branch without any history
 ```sh
 git checkout --orphan <branch_name>
-```
-
-## File diff between staging and the last file version.
-```sh
-git diff --staged
 ```
 
 ## Extract file from another branch.
